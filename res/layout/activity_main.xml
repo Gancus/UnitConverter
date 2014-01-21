@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="tempClicked"
+        android:text="@string/button_temp" />
+   <Button 
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:onClick="massClicked"
+       android:text="@string/button_mass" />
+   
+   <Button 
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:onClick="speedClicked"
+       android:text="@string/button_speed"/>
+
+</LinearLayout>
